@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Flaga</string>
     <string name="polecenie">Wybierz kolory których nie ma we fladze Polski.</string>
+    <string name="ostrzezenie">Ten kolor jest na fladze polski!</string>
+    <string name="podsumowanie">Brawo! To jest flaga polski :)</string>
 </resources>

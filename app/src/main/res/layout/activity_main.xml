@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewPolecenie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/purple_200"
-            android:layout_margin="@dimen/marginButton"/>
+            android:layout_margin="@dimen/marginButton"
+            android:onClick="zly"/>
 
         <Button
             android:id="@+id/button2"
@@ -39,14 +41,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="dobry"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_700"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="zly"/>
     </LinearLayout>
 
     <LinearLayout
@@ -60,7 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#6176E8"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="zly"/>
 
         <Button
             android:id="@+id/button5"
@@ -68,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#CA0404"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="dobry"/>
 
         <Button
             android:id="@+id/button6"
@@ -76,7 +82,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#FF9800"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:onClick="zly"/>
     </LinearLayout>
 
 </LinearLayout>
